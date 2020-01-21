@@ -116,6 +116,33 @@ body{
 
 }
 
+
+/**
+    OTHER DEVICES SETTINGS
+*/
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+    .content{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    .content{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  
 /**
     IMPORT LOCAL FONTS
 */
