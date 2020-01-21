@@ -66,6 +66,14 @@ body{
 
 }
 
+.linkText{
+    color: rgb(182, 189, 202);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'mediumTest';
+}
+
 .separator{
     margin-top: 50px;
     border-color: #3C4454;
