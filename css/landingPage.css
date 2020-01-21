@@ -1,5 +1,5 @@
 body{
-    background-color: #1F1F1F;
+    background-color: #21252B;
 }
 
 .content{
@@ -11,19 +11,21 @@ body{
     margin-right: auto;
 }
 
-.top{
+.logo{
     border: 0px solid red;
-    width: 100%;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./../assets/image/logoWhite.png");
+    background-position: center; /* Added */
+    background-size: cover; /* Added */
+    background-repeat: no-repeat; /* Added */
 }
 
-.logo{
-    width: 50px;
-    height: 50px;
-}
 
 .mid{
-    border: 0px solid red;
+    border: 1px solid red;
     width: 100%;
     height: 700px;
 }
