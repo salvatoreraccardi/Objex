@@ -10,6 +10,12 @@ h1{
     font-family: 'mediumTest';
 }
 
+h2{
+    font-size: 19px;
+    color: #96A2B9;
+    font-family: 'par';
+}
+
 p{
     font-size: 16px;
     color: #96A2B9;
