@@ -11,9 +11,9 @@ h1{
 }
 
 p{
+    font-size: 16px;
     color: #96A2B9;
     font-family: 'par'; /**CHANGE THIS FONT*/
-
 }
 
 
@@ -59,6 +59,49 @@ p{
     height: auto;
 }
 
+
+/**
+    OTHER SCREEN - media queries
+*/
+
+@media screen  and (max-width: 1650px) /* screen */ {
+    
+    
+  }
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+    
+  }
+
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    h1{
+        font-size: 19px;
+        color: white;
+        font-family: 'mediumTest';
+    }
+    
+    p{
+        font-size: 12px;
+        color: #96A2B9;
+        font-family: 'par'; /**CHANGE THIS FONT*/
+    }
+    .content{
+        border: 0px solid red;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mid{
+        border: 0px solid red;
+        width: 90%;
+        height: 400px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
 
 /**
     IMPORT LOCAL FONTS
