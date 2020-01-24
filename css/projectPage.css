@@ -22,6 +22,11 @@ p{
     font-family: 'par'; /**CHANGE THIS FONT*/
 }
 
+img{
+    margin-top: 20px;
+    width: 100%;
+}
+
 
 .content{
     border: 0px solid red;
@@ -63,6 +68,13 @@ p{
     border-top: 1px solid #3C4454;
     width: 100%;
     height: auto;
+}
+
+.bottom{
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
 }
 
 
