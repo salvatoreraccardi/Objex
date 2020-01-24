@@ -12,7 +12,7 @@ h1{
 
 p{
     color: #96A2B9;
-    font-family: 'mediumTest'; /**CHANGE THIS FONT*/
+    font-family: 'par'; /**CHANGE THIS FONT*/
 
 }
 
@@ -66,4 +66,12 @@ p{
     src: url('./../../assets/fonts/Gotham-Medium.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
+@font-face {
+    font-family: 'par';
+    src: url('./../../assets/fonts/GothamNarrow-Book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
