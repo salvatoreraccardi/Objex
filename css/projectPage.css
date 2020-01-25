@@ -52,8 +52,8 @@ h6{
 }
 
 .top{
-    border: 0px solid red;
-    width: 100%;
+    border: 1px solid red;
+    width: 40px;
     height: 40px;
     margin-top: 30px;
     margin-left: auto;
