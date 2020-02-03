@@ -1,30 +1,53 @@
 /**TEMPLATE PAGE*/
 
 body{
-    background-color: #11151D;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    border: 1px solid red;
+    margin-top: 100px;
+    height: 50px;
 }
 
 h1{
     font-size: 22px;
     color: white;
-    font-family: 'mediumTest';
+    font-family: 'par';
 }
 
 h2{
-    font-size: 19px;
+    font-size: 26px;
+    color: #505050;
+    font-family: 'par';
+}
+
+h3{
+    font-size: 16px;
+    margin-top: -15px;
     color: #96A2B9;
+    font-family: 'par';
+}
+
+h4{
+    font-size: 12px;
+    margin-top: 30px;
+    color: rgb(160, 171, 185);
     font-family: 'par';
 }
 
 p{
     font-size: 16px;
+    margin-top: 30px;
     color: #96A2B9;
     font-family: 'par'; /**CHANGE THIS FONT*/
 }
 
 a{
     font-size: 16px;
-    color: #96A2B9;
+    color: rgb(255, 217, 0);
     font-family: 'par'; /**CHANGE THIS FONT*/
     text-decoration: none;
 }
@@ -45,23 +68,26 @@ h6{
 
 .content{
     border: 0px solid red;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 .top{
+    overflow:hidden; 
     border: 0px solid red;
-    width: 40px;
-    height: 40px;
-    margin-top: 30px;
+    background-color: #6840F5;
+    width: 100%;
+    height: 70px;
     margin-left: auto;
     margin-right: auto;
 }
 .logo{
+    border: 0px solid red;
     width: 40px;
     height: 40px;
+    margin-top: 14px;
     margin-left: auto;
     margin-right: auto;
     background-image: url("./../../assets/image/logoWhite.png");
@@ -70,28 +96,30 @@ h6{
     background-repeat: no-repeat; 
 }
 
-.mid{
+.banner{
+    overflow:hidden; 
     border: 0px solid red;
-    width: 70%;
+    background-color: #724CF9;
+    width: 100%;
     height: 400px;
-    margin-top: 40px;
+}
+.article{  
+    border: 0px solid red;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.article{
-    border-top: 1px solid #3C4454;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
-.bottom{
+.post{
     border: 0px solid red;
-    width: 100%;
-    height: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
 }
-
 
 /**
     OTHER SCREEN - media queries
@@ -108,37 +136,19 @@ h6{
 
 
 @media screen and (max-width: 500px) /* Mobile */ {
-    h1{
-        font-size: 19px;
-        color: white;
-        font-family: 'mediumTest';
-    }
-    
-    p{
-        font-size: 12px;
-        color: #96A2B9;
-        font-family: 'par'; /**CHANGE THIS FONT*/
-    }
-    .content{
-        border: 0px solid red;
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .mid{
-        border: 0px solid red;
-        width: 90%;
-        height: 400px;
-        margin-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+   
   }
 
 /**
     IMPORT LOCAL FONTS
 */
+
+@font-face {
+    font-family: 'tt';
+    src: url('./../../assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'mediumTest';
