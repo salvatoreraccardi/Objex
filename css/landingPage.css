@@ -3,7 +3,17 @@
 */
 
 body{
-    background-color: #11151D;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #464646;
+    font-family: 'par';
 }
 
 .content{
@@ -21,101 +31,43 @@ body{
     height: 45px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./../assets/image/logoWhite.png");
+    background-image: url("./../assets/image/logoDark.png");
     background-position: center; 
     background-size: cover; 
     background-repeat: no-repeat; 
 }
 
 
-.mid{
+/**
+    Projects
+*/
+
+.projects{
     border: 0px solid red;
+    overflow:hidden; 
     width: 100%;
     height: auto;
 }
 
-
-.topCard{
+.card{
+    background-color: #724CF9;
     border: 0px solid red;
-    width: 80%;
-    height: auto;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bottomCard{
-    border: 0px solid red;
-    width: 80%;
-    height: 250px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bottom{
-    border: 0px solid red;
-    margin-top: 40px;
+    overflow:hidden; 
     width: 100%;
-    height: 50px;
+    height: 60px;
+    margin-top: 25px;
 }
+
 
 /**
     Components
 */
 
 .separator{
-    margin-top: 50px;
-    border-color: #3C4454;
-    width: 85%;
+    border-color: rgb(230, 230, 230);
+    width: 100%;
 }
 
-.projectCard{
-    border: 0px solid red;
-    background-color: #22252D;
-    border-radius: 5px;
-    position: relative;
-    float: left;
-    width: 250px;
-    height: 120px;
-    margin-top: 30px;
-    margin-right: 30px;
-}
-
-/**
-    TEXT STYLE
-*/
-
-.title{
-    color: white;
-    font-size: 22px;
-    font-family: 'mediumTest';
-    text-align: left; /**Remove this (dev-mode)*/
-
-}
-
-.p{
-    color: #96A2B9;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-family: 'mediumTest';
-
-}
-
-.linkText{
-    color: rgb(182, 189, 202);
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-family: 'mediumTest';
-}
-
-.subtitle{
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;/**Remove this (dev-mode)*/
-
-}
 
 
 /**
@@ -123,14 +75,7 @@ body{
 */
 
 @media screen  and (max-width: 1650px) /* screen */ {
-    
-    .bottomCard{
-        width: 80%;
-        height: 550px;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
   }
 
 @media screen  and (max-width: 979px) /* Tablet */ {
@@ -141,13 +86,7 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .bottomCard{
-        width: 80%;
-        height: 500px;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
   }
 
 
@@ -159,23 +98,7 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .bottomCard{
-        width: 80%;
-        height: 550px;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .projectCard{
-        background-color: #22252D;
-        border-radius: 5px;
-        position: relative;
-        float: left;
-        width: 90%;
-        height: 120px;
-        margin-top: 30px;
-        margin-right: 30px;
-    }
+
   }
 
   
@@ -189,3 +112,11 @@ body{
     font-weight: normal;
     font-style: normal;
   }
+
+
+  @font-face {
+    font-family: 'par';
+    src: url('../assets/fonts/GothamNarrow-Book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
