@@ -7,8 +7,8 @@ body{
 }
 
 footer{
-    border: 1px solid red;
-    margin-top: 100px;
+    border: 0px solid red;
+    margin-top: 150px;
     height: 50px;
 }
 
@@ -48,6 +48,13 @@ p{
 a{
     font-size: 16px;
     color: rgb(255, 217, 0);
+    font-family: 'par'; /**CHANGE THIS FONT*/
+    text-decoration: none;
+}
+
+.a_post{
+    font-size: 14px;
+    color: rgb(172, 172, 172);
     font-family: 'par'; /**CHANGE THIS FONT*/
     text-decoration: none;
 }
