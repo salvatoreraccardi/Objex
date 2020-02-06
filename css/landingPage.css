@@ -31,6 +31,13 @@ h6{
     text-align: center;
 }
 
+p{
+    font-size: 16px;
+    margin-top: 30px;
+    color: #96A2B9;
+    font-family: 'par'; /**CHANGE THIS FONT*/
+}
+
 a{
     font-size: 16px;
     color: #96A2B9;
