@@ -66,7 +66,7 @@ img{
 
 h6{
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 40px;
     color: rgb(103, 111, 128);
     font-family: 'par'; /**CHANGE THIS FONT*/
     text-align: center;
@@ -84,7 +84,7 @@ h6{
 .top{
     overflow:hidden; 
     border: 0px solid red;
-    background-color: rgb(44, 123, 187);
+    background-color: #6840F5;
     width: 100%;
     height: 70px;
     margin-left: auto;
@@ -106,7 +106,7 @@ h6{
 .banner{
     overflow:hidden; 
     border: 0px solid red;
-    background-color: #2A93D5;
+    background-color: #724CF9;
     width: 100%;
     height: 400px;
 }
