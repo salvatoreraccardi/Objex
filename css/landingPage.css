@@ -3,11 +3,33 @@
 */
 
 body{
-    background-color: white;
+    background-color: #20252D;
     padding: 0;
     margin: 0;
 }
 
+.top{
+    border: 0px solid red;
+    width: 80%;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'mediumTest';
+}
+
+p{
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+    font-family: 'par';
+}
 
 footer{
     border: 0px solid red;
@@ -16,108 +38,19 @@ footer{
 }
 
 
-h1{
-    margin-top: 40px;
-    font-size: 22px;
-    color: #464646;
-    font-family: 'par';
-}
-
-h6{
-    font-size: 12px;
-    margin-top: 20px;
-    color: rgb(103, 111, 128);
-    font-family: 'par'; /**CHANGE THIS FONT*/
-    text-align: center;
-}
-
-p{
-    font-size: 16px;
-    margin-top: 10px;
-    color: #96A2B9;
-    font-family: 'par'; /**CHANGE THIS FONT*/
-}
-
-a{
-    font-size: 16px;
-    color: #96A2B9;
-    font-family: 'par'; /**CHANGE THIS FONT*/
-    text-decoration: none;
-}
-
-.content{
-    border: 0px solid purple;
-    width: 65%;
-    height: auto;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.topbar{
-    border: 0px solid red;
-    width: 100%;
-    height: 45px;
-}
-
 .logo{
     border: 0px solid red;
     width: 45px;
     height: 45px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./../assets/image/logoDark.png");
+    background-image: url("./../assets/image/logoWhite.png");
     background-position: center; 
     background-size: cover; 
     background-repeat: no-repeat; 
 }
 
 
-.social{
-    border: 0px solid red;
-    width: 250px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.social_box{
-    border: 0px solid red;
-    width: 20px;
-    height: 20px;
-    margin-left: 25px;
-    margin-right: 10px;
-    display: inline-block;
-}
-
-
-/**
-    Projects
-*/
-
-.projects{
-    border: 0px solid red;
-    width: 100%;
-    height: auto;
-}
-
-.card{
-    border: 0px solid red;
-    width: 100%;
-    height: 30px;
-    margin-top: 0px;
-}
-
-
-/**
-    Components
-*/
-
-.separator{
-    border-color: rgb(230, 230, 230);
-    width: 100%;
-    margin-bottom: 25px;
-}
 
 
 
