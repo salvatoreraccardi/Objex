@@ -12,13 +12,21 @@ body{
     border: 0px solid red;
     width: 80%;
     height: 50px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
 h2{
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'mediumTest';
+}
+
+h3{
+    margin-top: 20px;
     text-align: center;
     color: white;
     font-family: 'mediumTest';
@@ -51,6 +59,15 @@ footer{
 }
 
 
+.btn{
+    border: 1px solid white;
+    width: 30%;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
 
 
 
@@ -59,8 +76,16 @@ footer{
 */
 
 @media screen  and (max-width: 1650px) /* screen */ {
-
-  }
+    .btn{
+        border: 1px solid white;
+        width: 50%;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+}
 
 @media screen  and (max-width: 979px) /* Tablet */ {
     .content{
@@ -70,8 +95,17 @@ footer{
         margin-left: auto;
         margin-right: auto;
     }
+    .btn{
+        border: 1px solid white;
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
 
-  }
+}
 
 
 @media screen and (max-width: 500px) /* Mobile */ {
@@ -83,7 +117,16 @@ footer{
         margin-right: auto;
     }
 
-  }
+    .btn{
+        border: 1px solid white;
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+    }
+}
 
   
 /**

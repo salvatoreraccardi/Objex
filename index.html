@@ -16,13 +16,41 @@
             <div class="logo"></div>
         </div>
         
-        <h2>website under construction</h2>
+        <h2>My social networks</h2>
 
-        <p>
-            OBJEX is a "startup" maybe (I don't know, it's early to say). <br>
-            Currently, it's a set of experimental IoT projects. Every project has a different name, <br>
-            for example, ORB1T. The goal of OBJEX is to develop IoT systems/devices
-        </p>
+        <div id="1" class="btn" onclick="window.location.href='https://www.linkedin.com/in/salvatore-raccardi-b362aa160/'" onmouseover="btnOver(1)" onmouseout="btnOut(1)">
+            <h3 id="1#title">Linkedin</h3>
+        </div>
+
+        <div id="2" class="btn" onclick="window.location.href='https://twitter.com/salvoraccardi'" onmouseover="btnOver(2)" onmouseout="btnOut(2)">
+            <h3 id="2#title">Twitter</h3>
+        </div>
+
+        <div id="3" class="btn" onclick="window.location.href='https://www.youtube.com/channel/UCU0wRBoWhfa5ShY9FjJACGA?sub_confirmation=1'" onmouseover="btnOver(3)" onmouseout="btnOut(3)">
+            <h3 id="3#title">Youtube</h3>
+        </div>
+
+        <div id="4" class="btn" onclick="window.location.href='https://github.com/salvatoreraccardi'" onmouseover="btnOver(4)" onmouseout="btnOut(4)">
+            <h3 id="4#title">Github</h3>
+        </div>
+        
     </body>
+
+
+    <script>
+        function btnOver(id){
+            var box = document.getElementById(id);
+            var title = document.getElementById(id + '#title');
+            box.style.backgroundColor = 'white';
+            title.style.color = '#20252D';
+        }
+
+        function btnOut(id){
+            var box = document.getElementById(id);
+            var title = document.getElementById(id + '#title');
+            box.style.backgroundColor = 'transparent';
+            title.style.color = 'white';
+        }
+    </script>
 
 </html>
